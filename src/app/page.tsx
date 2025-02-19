@@ -12,24 +12,16 @@ export default function Home() {
 
 function SectionOne() {
   return (
-    <section className="relative w-full h-screen flex items-center justify-center overflow-hidden">
-      <video 
-        autoPlay 
-        loop 
-        muted 
-        playsInline 
-        className="absolute top-0 left-0 w-full h-full object-cover"
-      >
-        <source src="/" type="video/mp4" />
-        Seu navegador não suporta vídeos HTML5.
-      </video>
+    <section
+      className="relative w-full h-screen flex items-center justify-center bg-cover bg-center"
+      style={{ backgroundImage: "url('/chefs.jpg')" }}
+    >
+      <div className="absolute top-0 left-0 w-full h-full bg-black/30"></div>
 
       <div className="relative z-10 text-center text-white">
-        <h1 className="text-5xl font-bold uppercase">Exposição de Arte Moderna</h1>
-        <p className="text-lg mt-4">Explore obras incríveis de artistas contemporâneos</p>
+        <h1 className="text-5xl font-bold uppercase">Exposição Apetite Virtual</h1>
+        <p className="text-lg mt-4">Por que comemos com os olhos?</p>
       </div>
-
-      <div className="absolute top-0 left-0 w-full h-full bg-black/40"></div>
     </section>
   );
 }
