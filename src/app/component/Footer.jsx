@@ -19,14 +19,7 @@ export default function Footer() {
 
       
       <div className="w-full md:w-1/3 flex justify-center md:justify-end">
-        <a 
-          href="https://instagram.com/exposicao" 
-          target="_blank" 
-          rel="noopener noreferrer"
-          className="bg-pink-500 hover:bg-pink-600 text-white font-bold py-2 px-4 rounded-lg shadow-md transition"
-        >
-         Instagram
-        </a>
+        
       </div>
 
     </footer>

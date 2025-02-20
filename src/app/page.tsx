@@ -19,7 +19,7 @@ function SectionOne() {
       <div className="absolute top-0 left-0 w-full h-full bg-black/30"></div>
 
       <div className="relative z-10 text-center text-white">
-        <h1 className="text-5xl font-bold uppercase">Exposição Apetite Virtual</h1>
+        <h1 className="text-5xl font-bold uppercase">Exposição Apetite Visual</h1>
         <p className="text-lg mt-4">Por que comemos com os olhos?</p>
       </div>
     </section>
@@ -44,7 +44,7 @@ function SectionTwo() {
         <div className="flex-1 lg:pl-12 mt-8 lg:mt-0 text-center lg:text-left">
           <h2 className="text-2xl font-semibold mb-4">Explore a Arte do Futuro</h2>
           <p className="text-lg text-gray-700">
-          A sofisticação da alta gastronomia e a arte da fotografia se encontram na exposição - Nome da Exposição -, uma experiência visual única que transforma pratos em verdadeiras obras de arte. Com produção assinada pelo Estúdio 10, a mostra reúne imagens impactantes que exploram a estética dos alimentos, elevando a fotografia gastronômica a um novo patamar.
+          A sofisticação da alta gastronomia e a arte da fotografia se encontram na exposição Apetite visual, uma experiência visual única que transforma pratos em verdadeiras obras de arte. Com produção assinada pelo Estúdio 10, a mostra reúne imagens impactantes que exploram a estética dos alimentos, elevando a fotografia gastronômica a um novo patamar.
           </p>
         </div>
       </div>
