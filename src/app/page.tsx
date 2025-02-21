@@ -19,8 +19,8 @@ function SectionOne() {
       <div className="absolute top-0 left-0 w-full h-full bg-black/30"></div>
 
       <div className="relative z-10 text-center text-white">
-        <h1 className="text-5xl font-bold uppercase">Exposição Apetite Visual</h1>
-        <p className="text-lg mt-4">Por que comemos com os olhos?</p>
+        <h1 className="text-5xl font-bold uppercase">EXPOSIÇÃO APETITE VISUAL</h1>
+        <p className="text-lg mt-4">POR QUE COMEMOS COM OS OLHOS? </p>
       </div>
     </section>
   );
@@ -81,7 +81,7 @@ function SectionTwo() {
           <p className="text-lg text-gray-700">
           Mais do que uma celebração da beleza dos alimentos, a exposição também tem um propósito social: apoio ao projeto “Diamantes na Cozinha”, um projeto dedicado à transformação de vidas por meio da gastronomia. O evento reforça o compromisso com a inclusão e o impacto social positivo, trazendo a arte como ferramenta de mudança.
 
-A mostra acontece no Vogue Square, com abertura no dia 11/03 e permanece em cartaz até 25/04. Uma oportunidade imperdível para apreciar o encontro entre gastronomia, fotografia e exclusividade.
+A mostra acontece no Vogue Square, com abertura no dia 11/03 e permanece em cartaz até 31/03. Uma oportunidade imperdível para apreciar o encontro entre gastronomia, fotografia e exclusividade.
           </p>
         </div>
       </div>
@@ -95,14 +95,14 @@ A mostra acontece no Vogue Square, com abertura no dia 11/03 e permanece em cart
 
 function SectionThree() {
   return (
-    <div className="flex flex-col items-center min-h-screen bg-white text-gray-900 py-12 px-6">
+    <div className="flex flex-col items-center min-h-screen bg-white text-gray-900 py-12 px-6 ">
       
-      <h2 className="text-3xl font-semibold mb-8 underline">Nossos Parceiros</h2>
+      <h2 className="text-3xl font-semibold mb-8 ">Nossos Parceiros</h2>
 
-      {/* Grid de parceiros */}
-      <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 w-full max-w-5xl">
-        <Image src="/parceiros/CASTELLA.jpg" alt="Castella" width={150} height={150} className="rounded-lg shadow-md" />
-        <Image src="/parceiros/FASANO.png" alt="Fasano" width={150} height={150} className="rounded-lg shadow-md" />
+      <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 w-full max-w-5xl md:ml-20">
+        <Image src="/parceiros/coca_cola.jpeg" alt="Coca Cola" width={150} height={150} className="rounded-lg shadow-md" />
+        <Image src="/parceiros/facicolor.jpeg" alt="Faci Color" width={150} height={150} className="rounded-lg shadow-md" />
+
         <Image src="/parceiros/HEAVEN.png" alt="Heaven" width={150} height={150} className="rounded-lg shadow-md" />
         <Image src="/parceiros/2_fevereiro.jpeg" alt="2 De Fevereiro" width={150} height={150} className="rounded-lg shadow-md" />
         <Image src="/parceiros/maze.jpg" alt="Mazé" width={150} height={150} className="rounded-lg shadow-md" />
