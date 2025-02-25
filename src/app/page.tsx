@@ -99,13 +99,8 @@ function SectionThree() {
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 w-full max-w-5xl md:ml-20">
         <Image src="/parceiros/coca_cola.jpeg" alt="Coca Cola" width={150} height={150} className="rounded-lg shadow-md" />
         <Image src="/parceiros/facicolor.jpeg" alt="Faci Color" width={150} height={150} className="rounded-lg shadow-md" />
-
-        <Image src="/parceiros/HEAVEN.png" alt="Heaven" width={150} height={150} className="rounded-lg shadow-md" />
-        <Image src="/parceiros/2_fevereiro.jpeg" alt="2 De Fevereiro" width={150} height={150} className="rounded-lg shadow-md" />
-        <Image src="/parceiros/maze.jpg" alt="Mazé" width={150} height={150} className="rounded-lg shadow-md" />
-        <Image src="/parceiros/NATURAL.png" alt="Natural" width={150} height={150} className="rounded-lg shadow-md" />
-        <Image src="/parceiros/francis_doces_finos.PNG" alt="Francis Doces Finos" width={150} height={150} className="rounded-lg shadow-md" />
-        <Image src="/parceiros/BADALADO.jpg" alt="Badalado" width={150} height={150} className="rounded-lg shadow-md" />
+        <Image src="/parceiros/vogue_gallery.jpeg" alt="Vogue" width={150} height={150} className="rounded-lg shadow-md" />
+        <Image src="/parceiros/vogue.jpeg" alt="2 De Fevereiro" width={150} height={150} className="rounded-lg shadow-md" />
       </div>
 
     </div>
