@@ -92,7 +92,7 @@ A mostra acontece no Vogue Square, com abertura no dia 11/03 e permanece em cart
 
 function SectionThree() {
   return (
-    <div className="flex flex-col items-center min-h-screen bg-white text-gray-900 py-12 px-6 ">
+    <div className="flex flex-col items-center bg-white text-gray-900 py-12 px-6 ">
       
       <h2 className="text-3xl font-semibold mb-8 ">Nossos Parceiros</h2>
 
